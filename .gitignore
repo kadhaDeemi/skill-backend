@@ -1,0 +1,14 @@
+# Entornos virtuales y caché
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Archivos de entorno (¡SECRETOS!)
+.env
+
+# Base de datos local (ya usamos Neon)
+db.sqlite3
+
+# Archivos estáticos recolectados
+staticfiles/
